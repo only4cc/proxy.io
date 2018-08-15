@@ -12,9 +12,9 @@ Después de leer los comentarios de algunos Gurus favoritos me decidí por usa
 Hay numerosas y buenas presentaciones y vídeos en relación a Moose y Moo así que dejare que el lector "googlee" a su gusto, pero tal como lo mencionaba para mi fue un grata actualización. 
 
 
-PD: Revisando me queda pendiente revisar "Mo" un módulo aun más limitado.
+PD: Revisando me queda pendiente revisar __"Mo"__ un módulo aun más limitado.
 
-## Max Open Files
+### Max Open Files
 
 Aprovecho de compartirles un script en Perl  :)  que genera archivos abiertos simultáneamente, es útil especialmente en Unix/Linux pero también por curiosidad lo ejecuté en un sistema operativo Windows:
 
@@ -32,16 +32,20 @@ print "duracion: ".(tv_interval ( $t0 )/1000000)." [ms] \n";
 
 Un ejemplo de ejecución en un Windows  8.1:
 
+```
 C:\tmp\maxof>perl maxof.pl  2050
 Too many open files
 2045 archivos abiertos antes de morir ...
 duracion: 1532.11467270232 [ms]
+```
 
 Es decir en 1,5 segundos alcanzo a generar 2045 archivos ...
 
-En un Linux  (Ubuntu 17.10) el máximo de archivos abiertos fue de 1021 (el valor por defecto es un máximo de 1024 descriptores abiertos simultáneamente) prácticamente en el mismo tiempo, pero esta vez ejecutado en un notebook mucho más antiguo:
+En un Linux (Ubuntu 17.10) el máximo de archivos abiertos fue de 1021 (el valor por defecto es un máximo de 1024 descriptores abiertos simultáneamente) prácticamente en el mismo tiempo, pero esta vez ejecutado en un notebook mucho más antiguo:
 
+```
 $ perl maxof.pl 2000
 Too many open files
 1021 archivos abiertos antes de morir ...
 duracion: 1532.30118969526 [ms]
+```
