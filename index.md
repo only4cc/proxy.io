@@ -1,8 +1,8 @@
-## Welcome to GitHub Pages
+## Proxy Blog
 
-You can use the [editor on GitHub](https://github.com/only4cc/proxy.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Este sitio se mantiene usando [editor on GitHub](https://github.com/only4cc/proxy.io/edit/master/index.md).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Cuando confirme los cambios "commit" de este repositorio, GitHub Pages ejecutara [Jekyll](https://jekyllrb.com/) para reconstruir las paginas del sitio, (desde el contenido usando archivos en formato Markdown).
 
 ### Markdown
 
