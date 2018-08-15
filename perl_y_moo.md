@@ -18,7 +18,7 @@ PD: Revisando me queda pendiente revisar __"Mo"__ un módulo aun más limitado.
 
 Aprovecho de compartirles un script en Perl  :)  que genera archivos abiertos simultáneamente, es útil especialmente en Unix/Linux pero también por curiosidad lo ejecuté en un sistema operativo Windows:
 
-```javascript
+```
 use Time::HiRes qw( tv_interval );
 my $MAX=shift;
 system("del c:\\tmp\\maxof\\xxx*");
