@@ -4,6 +4,8 @@ Este sitio se mantiene usando [editor on GitHub](https://github.com/only4cc/prox
 
 Cuando confirme los cambios "commit" de este repositorio, GitHub Pages ejecutara [Jekyll](https://jekyllrb.com/) para reconstruir las paginas del sitio, (desde el contenido usando archivos en formato Markdown).
 
+[Perl y Moo](https://github.com/only4cc/proxy.io/perl_y_moo.md)
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
